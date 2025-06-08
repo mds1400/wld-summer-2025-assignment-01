@@ -25,4 +25,8 @@ Other Findings\
 -The 1990s saw the most stable unemployment rate throughout the period.\
 -1982 had the highest rate at 9.71%\
 -During 2020, the average rate was 8.1%, the highest in recent years (compared to 4.9% on average since 2020)\
--The 2008 Financial Crisis saw rates as high as 10% in October 2009, with the average being 8.23% (2008 -2010)}
+-The 2008 Financial Crisis saw rates as high as 10% in October 2009, with the average being 8.23% (2008 -2010)\
+\
+\
+Business Implications\
+By tracking unemployment rates, businesses can make smarter decisions in areas like workplace planning and risk management. Knowing this rates helps businesses understand the potential talent that is available on the market, make safer investments, and when to expand or scale back operations.}
