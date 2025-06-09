@@ -69,4 +69,8 @@ Extract the years from 2008 - 2010 and 2020- present day and calculate their une
 Lines 138 - 166 in unemployment _analysis.py\
 Prompt Used: \
 Print the unemployment rate of the last 10 years, as well as a line plot to analyze the trend\
+\
+Lines 177 - 207 in unemployment _analysis.py\
+Prompt Used: \
+Plot the unemployment rate over time and a bar chart of the rate by decade with a trend line at 5.67%\
 }

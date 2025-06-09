@@ -19,9 +19,6 @@ print("\nFirst 5 rows:")
 df.head()
 
 # %%
-df.tail
-
-# %%
 print("Data types:")
 print(df.dtypes)
 print("\nBasic statistics:")
@@ -200,16 +197,20 @@ decade_avg = df.groupby("Decade")["UNRATE"].mean().reset_index()
 
 plt.figure(figsize=(10, 6))
 plt.bar(decade_avg["Decade"].astype(str), decade_avg["UNRATE"], color="darkorange")
+plt.axhline(y=5.67, color='red', linestyle='--', linewidth=2, label='Average: 5.67%')
 plt.title("Average Unemployment Rate by Decade", fontsize=16)
 plt.xlabel("Decade", fontsize=12)
 plt.ylabel("Average UNRATE (%)", fontsize=12)
 plt.xticks(rotation=45)
 plt.grid(axis='y')
+plt.legend()
 plt.tight_layout()
 
 # Save and Show
 plt.savefig("unemployment_by_decade.png", dpi=300)
 plt.show()
+
+
 
 
 
